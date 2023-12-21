@@ -52,3 +52,5 @@ contacts = Contact.objects.all().order_by('-id')
 # Seleciona contatos usando filtros
 # Retorna QuerySet[]
 contacts = Contact.objects.filter(**filters).order_by('-id')
+
+teste
